@@ -82,10 +82,18 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: silver;
     color: #ffffff;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.contents-items button {
+    width: 50%;
 }
 
 .contents-items img {
     max-height: 200px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .contents-items h2 {
